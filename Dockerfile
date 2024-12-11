@@ -2,7 +2,7 @@
 FROM osrf/ros:noetic-desktop-full
 
 # Install additional utilities and ensure system dependencies are up-to-date
-RUN apt-get update && apt-get upgrade && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     python3-rosdep \
     python3-colcon-common-extensions \
     build-essential \
