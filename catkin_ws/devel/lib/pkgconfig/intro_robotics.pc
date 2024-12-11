@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: intro_robotics
+Description: Description of intro_robotics
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
