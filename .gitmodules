@@ -1,3 +1,6 @@
 [submodule "catkin_ws/src/forked_brwonhall"]
 	path = catkin_ws/src/turtlebot3_brownhall
 	url = https://github.com/arasul42/turtlebot3_brownhall.git
+[submodule "catkin_ws/src/turtlebot3_navigation"]
+	path = catkin_ws/src/turtlebot3_navigation
+	url = https://github.com/arasul42/turtlebot3_navigation.git
