@@ -32,9 +32,9 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 
  ^^ #this step is to automatic update of 2D pose estimate and map value. 
 
-7. source ~/.bashrc
+8. source ~/.bashrc
 
-7. roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch 
+9. roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch 
 
 
 
