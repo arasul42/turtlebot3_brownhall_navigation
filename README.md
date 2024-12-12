@@ -8,7 +8,9 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 
 ### git Clone with SSH Link
 
-1. git clone -b master --recurse-submodules git@github.com:arasul42/turtlebot3_brownhall_navigation.git
+1.  ```
+    git clone -b master --recurse-submodules git@github.com:arasul42/turtlebot3_brownhall_navigation.git
+    ```
 
 2. cd turtlebot3_brownhall_navigation/
 
