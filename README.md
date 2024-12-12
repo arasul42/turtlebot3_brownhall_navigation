@@ -6,13 +6,13 @@ The multi_goal_mission.py script publishes 3 goal points sequentially.
 
 I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use this repository please follor the steps.  
 
-#git Clone with SSH Link
+### git Clone with SSH Link
 
 1. git clone -b master --recurse-submodules git@github.com:arasul42/turtlebot3_brownhall_navigation.git
 
 2. cd turtlebot3_brownhall_navigation/
 
-#bash Script for building the docker image and running the container with ros noetic environment. 
+### bash Script for building the docker image and running the container with ros noetic environment. 
 
 3. ./enter_console.sh
 
@@ -28,15 +28,15 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 
 6. roscd turtlebot3_navigation && cd launch
 
-7. nano turtlebot3_navigation.launch to edit the file according to the refernce in this repository. 
+ ### This step is to automatic update of 2D pose estimate and map value. 
 
- ^^ #this step is to automatic update of 2D pose estimate and map value. 
+7. nano turtlebot3_navigation.launch to edit the file according to the refernce in this repository. 
 
 8. source ~/.bashrc
 
 9. roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch 
 
-This should Run the turtlebot3 on a mission to chase 3 goal points.  
+# This should Run the turtlebot3 on a mission to chase 3 goal points.  
 
 
 
