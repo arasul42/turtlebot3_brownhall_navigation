@@ -11,6 +11,12 @@ RUN apt-get update && apt-get install -y \
     ros-noetic-gmapping\
     && apt-get clean
 
+RUN apt-get install -y\
+    ros-noetic-turtlebot3\
+    ros-noetic-turtlebot3-simulations\
+    ros-noetic-turtlebot3-gazebo\
+    && apt-get clean
+
 # Ensure rosdep is initialized only if necessary
 RUN if [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then \
       rosdep init; \
