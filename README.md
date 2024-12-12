@@ -16,13 +16,25 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 
 3. ./enter_console.sh
 
-4. cd ~/catkin_ws 
 
-5. catkin_make 
+4.  source /opt/ros/noetic/setup.bash
+    source ~/catkin_ws/devel/setup.bash
 
-6. source /opt/ros/noetic/setup.bash
+5. echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
 
-7. source devel/setup.bash
+    echo "export GAZEBO_PLUGIN_PATH=~/catkin_ws/src/turtlebot3_brownhall/lib:${GAZEBO_PLUGIN_PATH}" >> ~/.bashrc
+    echo "export GAZEBO_MODEL_PATH=~/catkin_ws/src/turtlebot3_brownhall/models:${GAZEBO_MODEL_PATH}" >> ~/.bashrc
+    echo "export GAZEBO_RESOURCE_PATH=~/catkin_ws/src/turtlebot3_brownhall/models:${GAZEBO_RESOURCE_PATH}" >> ~/.bashrc
 
-8. 
+6. roscd turtlebot3_navigation && cd launch
+
+7. nano turtlebot3_navigation.launch to edit the file according to the refernce in this repository. 
+
+ ^^ #this step is to automatic update of 2D pose estimate and map value. 
+
+7. source ~/.bashrc
+
+7. roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch 
+
+
 

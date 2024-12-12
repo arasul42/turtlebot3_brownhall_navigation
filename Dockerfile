@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get install -y\
     ros-noetic-turtlebot3\
+    vim\
     ros-noetic-turtlebot3-simulations\
     ros-noetic-turtlebot3-gazebo\
     && apt-get clean
