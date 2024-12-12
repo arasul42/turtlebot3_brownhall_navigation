@@ -38,9 +38,12 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 
 8. ```source ~/.bashrc```
 
-9. ```roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch``` 
+9. ```roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch```
+10. rviz and gazebo will start. add /goal_markers to rviz display option. This subscription will start the robot for first goal.  
 
 # This should Run the turtlebot3 on a mission to chase 3 goal points.  
+
+
 
 
 
