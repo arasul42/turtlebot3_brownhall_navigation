@@ -1,4 +1,4 @@
-Turtlebot3 Navigation in virtual Brownhall Map. 
+#Turtlebot3 Navigation in virtual Brownhall Map. 
 
 The package is based on turtlebot_3 navigation stack. 
 
@@ -35,6 +35,8 @@ I am running on Ubuntu 22.04, therefore used docker for ROS Noetic setup.To use 
 8. source ~/.bashrc
 
 9. roslaunch turtlebot3_brownhall turtlebot3_brownhall.launch 
+
+This should Run the turtlebot3 on a mission to chase 3 goal points.  
 
 
 
